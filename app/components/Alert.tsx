@@ -9,6 +9,7 @@ const Alert: React.FC = () => {
   return (
     <div className="fixed right-6 bottom-20 bg-black dark:bg-slate-200 dark:text-slate-700 text-white px-6 py-3 rounded-lg shadow-md z-50">
    <ul className="list-disc pl-5">
+     <li className='pb-2 no-underline'> <strong>Features</strong>.</li>
         <li>Data sourced from <strong>Sanity Headless CMS</strong>.</li>
         <li>Includes <strong>Pagination</strong> for browsing movies.</li>
         <li>individual movie details in <strong>Dynamic Routes</strong></li>
